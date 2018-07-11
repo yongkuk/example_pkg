@@ -18,5 +18,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: Linux",
     ),
+    entry_points = {
+        "console_scripts": ["example_pkg=example_pkg.command_line:main"],
+    }
 )
 
