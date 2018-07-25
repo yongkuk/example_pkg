@@ -1,15 +1,27 @@
 # Example Package
 
-This is a simple example package for me to practice how to use the setuptools.
+There are many things in python programming that is conceptually not very hard, but requires 
+practices. This is a simple example package for me to practice those in the list below. 
+- Distribution of a python package
+- Parallelization
+- Developing a command line tool
+- General python programming
+- Developing a python package using git
+You can check the development process by checking out the commits. I'll update the list as this
+package grow.
 
-Install by typing
+
+As the first practice, I used `setuptools` to distribute my package. Now installation can be 
+easily done by typing
 ```
 $ git clone https://github.com/yongkuk/example_pkg
 $ cd example_pkg
 $ pip install .
 ```
-As the first practice, I implemented parallel execution of tasks using the 
-concurrent.futures module. The program tests if the numbers given in `presets/default.cfg`
+
+
+Next, I implemented parallel execution of tasks using the `concurrent.futures` module.
+The program tests if the numbers given in `presets/default.cfg`
 are prime or not. You can choose between `ThreadPoolExecutor` and `ProcessPoolExecutor` by 
 setting the option `--mode` as either `process` or `thread`.
 ```
