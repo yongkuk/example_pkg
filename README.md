@@ -1,14 +1,14 @@
 # Example Package
 
 There are many things in python programming that is conceptually not very hard, but requires 
-practices. This is a simple example package for me to practice those in the list below. 
+practices. This is a simple example package for me to practice those. 
+You can check each step of the development by checking out the commits.
+Below is the list of the concepts I practiced. I'll update the list as this package grows.
 - Distribution of a python package
 - Parallelization
 - Developing a command line tool
 - General python programming
 - Developing a python package using git
-You can check the development process by checking out the commits. I'll update the list as this
-package grow.
 
 
 As the first practice, I used `setuptools` to distribute my package. Now installation can be 
